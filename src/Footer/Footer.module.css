@@ -1,0 +1,37 @@
+.footer {
+    background-color: #171717;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footerleft img {
+    max-height: 40px;
+  }
+  
+  .footermiddle ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footermiddle ul li {
+    margin: 5px 10px;
+    display: inline;
+  }
+  
+  .footerright a {
+    margin-right: 10px;
+  }
+  
+  .footercompanydetails {
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 100%;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }

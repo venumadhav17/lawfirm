@@ -1,0 +1,46 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 8px;
+    width: 359px;
+    padding: 10px;
+    border: 1px solid #2e2e2e;
+    cursor: pointer;
+  }
+  
+  .cardContainer:hover {
+    background-color: #2e2e2e;
+  }
+  
+  .cardImage {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .cardTitle {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cardDescription {
+    color: white;
+    opacity: 0.3;
+  }
+  
+  .cardButton {
+    padding: 12px;
+    width: 121px;
+    border-radius: 50px;
+    background-color: #e3b748;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+  }

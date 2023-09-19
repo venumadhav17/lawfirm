@@ -1,0 +1,81 @@
+.heroSection {
+    height: 870px;
+    background-color: #111111;
+    padding: 80px;
+    color: white;
+  }
+  
+  .leftColumn {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .maintitle {
+    font-size: 50px;
+  }
+  
+  .titlebold {
+    font-size: 50px;
+    font-weight: 700px;
+  }
+  
+  .subtitle {
+    color: #585858;
+  }
+  
+  .inputcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+    padding: 10px;
+    width: 70%;
+    position: relative;
+    border-radius: 100px;
+    margin-top: 16px;
+  }
+  
+  .emailInput {
+    background-color: #282828;
+    padding-left: 40px;
+    height: 100%;
+    /* width: 77%; */
+    flex-grow: 1;
+    outline: none;
+    border: none;
+  }
+  
+  .talkbutton {
+    /* background-color: #e3b748;
+    color: black;
+    padding: 16px;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor: pointer; */
+    background-color: #e3b748;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .messageicon {
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
+  }
+  
+  .rightcolumn {
+    width: 50%;
+    padding-left: 100px;
+  }
+  .customcontainer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 10px;
+  }

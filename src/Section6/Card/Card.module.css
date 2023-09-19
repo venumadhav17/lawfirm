@@ -1,0 +1,50 @@
+.container {
+    border: 1px solid #2e2e2e;
+    background-color: transparent;
+    width: 354px;
+    height: 109px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    padding: 4px;
+    gap: 10px;
+    /* changes */
+    padding-left: 100px;
+  }
+  
+  .container:hover {
+    background-color: #e3b748;
+  }
+  
+  .image {
+    width: 68px;
+    height: 68px;
+    padding-top: 25px;
+    padding-right: 5px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .fullName {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .caseNum {
+    color: white;
+    opacity: 0.3;
+  }
+  
+  .container:hover .card-fullName {
+    color: black;
+  }
+  
+  .card-container:hover .card-caseNum {
+    color: black;
+    opacity: 0.6;
+  }

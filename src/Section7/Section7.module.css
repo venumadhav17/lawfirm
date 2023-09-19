@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 54px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .description {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    opacity: 0.3;
+  }
+  
+  .accordion {
+    flex: 1;
+    padding-left: 40px;
+    padding-top: 100px;
+  }
